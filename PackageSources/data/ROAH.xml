@@ -1,6 +1,39 @@
 <?xml version="1.0"?>
 <FSData version="9.0">
 	<Airport displayName="Naha" groupID="4294967295" groupGenerated="FALSE" name="Naha" ident="ROAH" lat="26.19333341717720" lon="127.63972207903862" alt="3.81000018119812" magvar="0.000000" trafficScalar="1.000000" airportTestRadius="2000.00000000000000" applyFlatten="FALSE" isOnTIN="FALSE" tinColorCorrection="TRUE">
+		<DeleteAirport deleteAllDepartures="TRUE" />
+		<Departure name="DORIS2">
+			<RunwayTransitions>
+				<RunwayTransitionLegs number="18" designator="L">
+					<Leg type="VA" magneticCourse="183.0" altitudeDescriptor="+" altitude1="500.0F" />
+					<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="RO" fixIdent="H8L00" flyOver="TRUE" />
+					<Leg type="DF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="VIGER" flyOver="FALSE" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="DORIS" flyOver="FALSE" magneticCourse="284.0" distance="48.6N" />
+				</RunwayTransitionLegs>
+				<RunwayTransitionLegs number="18" designator="R">
+					<Leg type="VA" magneticCourse="183.0" altitudeDescriptor="+" altitude1="500.0F" />
+					<Leg type="DF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="VIGER" flyOver="FALSE" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="DORIS" flyOver="FALSE" magneticCourse="284.0" distance="48.6N" />
+				</RunwayTransitionLegs>
+				<RunwayTransitionLegs number="36" designator="L">
+					<Leg type="VA" magneticCourse="3.0" altitudeDescriptor="+" altitude1="500.0F" />
+					<Leg type="DF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="KIZNA" flyOver="FALSE" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="GELMA" flyOver="FALSE" magneticCourse="235.0" distance="8.5N" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="TINTO" flyOver="FALSE" magneticCourse="230.0" distance="18.3N" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="DORIS" flyOver="FALSE" magneticCourse="269.0" distance="25.6N" />
+				</RunwayTransitionLegs>
+				<RunwayTransitionLegs number="36" designator="R">
+					<Leg type="VA" magneticCourse="3.0" altitudeDescriptor="+" altitude1="500.0F" />
+					<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="RO" fixIdent="H6R00" flyOver="TRUE" />
+					<Leg type="DF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="KIZNA" flyOver="FALSE" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="GELMA" flyOver="FALSE" magneticCourse="235.0" distance="8.5N" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="TINTO" flyOver="FALSE" magneticCourse="230.0" distance="18.3N" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="DORIS" flyOver="FALSE" magneticCourse="269.0" distance="25.6N" />
+				</RunwayTransitionLegs>
+			</RunwayTransitions>
+			<CommonRouteLegs />
+			<EnrouteTransitions />
+		</Departure>
 		<Approach type="RNAV" runway="36" designator="L" fixType="WAYPOINT" fixRegion="RJ" fixIdent="KICKS" altitude="1300.0F" heading="3.0" missedAltitude="2000.0F" lnavvnav="TRUE">
 			<ApproachLegs>
 				<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="KICKS" flyOver="FALSE" magneticCourse="3.0" distance="4.0N" altitudeDescriptor="A" altitude1="1300.0F" verticalAngle="-3.0" isFAF="TRUE" />

@@ -34,6 +34,94 @@
 			<CommonRouteLegs />
 			<EnrouteTransitions />
 		</Departure>
+		<Departure name="ESKOB3">
+			<RunwayTransitions>
+				<RunwayTransitionLegs number="18" designator="L">
+					<Leg type="VA" magneticCourse="183.0" altitudeDescriptor="+" altitude1="500.0F" />
+					<Leg type="DF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="KYANN" flyOver="FALSE" />
+					<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="RO" fixIdent="AH801" flyOver="FALSE" magneticCourse="93.0" distance="4.7N" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="ESKOB" flyOver="FALSE" magneticCourse="15.0" distance="15.0N" />
+				</RunwayTransitionLegs>
+				<RunwayTransitionLegs number="18" designator="R">
+					<Leg type="VA" magneticCourse="183.0" altitudeDescriptor="+" altitude1="500.0F" />
+					<Leg type="DF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="KYANN" flyOver="FALSE" />
+					<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="RO" fixIdent="AH801" flyOver="FALSE" magneticCourse="93.0" distance="4.7N" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="ESKOB" flyOver="FALSE" magneticCourse="15.0" distance="15.0N" />
+				</RunwayTransitionLegs>
+				<RunwayTransitionLegs number="36" designator="L">
+					<Leg type="VA" magneticCourse="3.0" altitudeDescriptor="+" altitude1="500.0F" />
+					<Leg type="DF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="KIZNA" flyOver="FALSE" turnDirection="L" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="GELMA" flyOver="FALSE" magneticCourse="235.0" distance="8.5N" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="OLVAL" flyOver="FALSE" magneticCourse="185.0" distance="16.5N" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="ESKOB" flyOver="FALSE" magneticCourse="84.0" distance="30.0N" />
+				</RunwayTransitionLegs>
+				<RunwayTransitionLegs number="36" designator="R">
+					<Leg type="VA" magneticCourse="3.0" altitudeDescriptor="+" altitude1="500.0F" />
+					<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="RO" fixIdent="H6R00" flyOver="TRUE" />
+					<Leg type="DF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="KIZNA" flyOver="FALSE" turnDirection="L" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="GELMA" flyOver="FALSE" magneticCourse="235.0" distance="8.5N" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="OLVAL" flyOver="FALSE" magneticCourse="185.0" distance="16.5N" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="ESKOB" flyOver="FALSE" magneticCourse="84.0" distance="30.0N" />
+				</RunwayTransitionLegs>
+			</RunwayTransitions>
+			<CommonRouteLegs />
+			<EnrouteTransitions>
+				<EnrouteTransitionLegs name="AMAMI">
+					<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="ESKOB" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="ADDAN" flyOver="FALSE" magneticCourse="37.0" distance="36.3N" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="CHERY" flyOver="FALSE" magneticCourse="57.0" distance="23.7N" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="AMAMI" flyOver="FALSE" magneticCourse="34.0" distance="103.3N" />
+				</EnrouteTransitionLegs>
+				<EnrouteTransitionLegs name="CHERY">
+					<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="ESKOB" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="ADDAN" flyOver="FALSE" magneticCourse="37.0" distance="36.3N" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="CHERY" flyOver="FALSE" magneticCourse="57.0" distance="23.7N" />
+				</EnrouteTransitionLegs>
+				<EnrouteTransitionLegs name="YANBA">
+					<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="ESKOB" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="ADDAN" flyOver="FALSE" magneticCourse="37.0" distance="36.3N" />
+				</EnrouteTransitionLegs>
+			</EnrouteTransitions>
+		</Departure>
+		<Departure name="KIZNA2">
+			<RunwayTransitions>
+				<RunwayTransitionLegs number="36" designator="L">
+					<Leg type="VA" magneticCourse="3.0" altitudeDescriptor="+" altitude1="500.0F" />
+					<Leg type="DF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="KIZNA" flyOver="FALSE" />
+				</RunwayTransitionLegs>
+				<RunwayTransitionLegs number="36" designator="R">
+					<Leg type="VA" magneticCourse="3.0" altitudeDescriptor="+" altitude1="500.0F" />
+					<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="RO" fixIdent="H6R00" flyOver="TRUE" />
+					<Leg type="DF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="KIZNA" flyOver="FALSE" />
+				</RunwayTransitionLegs>
+			</RunwayTransitions>
+			<CommonRouteLegs />
+			<EnrouteTransitions>
+				<EnrouteTransitionLegs name="CHAMP">
+					<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="KIZNA" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="SCUBA" flyOver="FALSE" magneticCourse="347.0" distance="26.0N" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="TESLA" flyOver="FALSE" magneticCourse="45.0" distance="28.4N" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="CHAMP" flyOver="FALSE" magneticCourse="51.0" distance="61.0N" />
+				</EnrouteTransitionLegs>
+				<EnrouteTransitionLegs name="KUROU">
+					<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="KIZNA" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="SCUBA" flyOver="FALSE" magneticCourse="347.0" distance="26.0N" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="TESLA" flyOver="FALSE" magneticCourse="45.0" distance="28.4N" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="CHAMP" flyOver="FALSE" magneticCourse="51.0" distance="61.0N" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="AMAMI" flyOver="FALSE" magneticCourse="66.0" distance="63.9N" />
+				</EnrouteTransitionLegs>
+				<EnrouteTransitionLegs name="RESOR">
+					<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="KIZNA" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="OKUMA" flyOver="FALSE" magneticCourse="68.0" distance="30.8N" />
+				</EnrouteTransitionLegs>
+				<EnrouteTransitionLegs name="YUGAF">
+					<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="KIZNA" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="VOLVO" flyOver="FALSE" magneticCourse="26.0" distance="48.6N" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="YUGAF" flyOver="FALSE" magneticCourse="51.0" distance="23.2N" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="AMAMI" flyOver="FALSE" magneticCourse="57.0" distance="95.9N" />
+				</EnrouteTransitionLegs>
+			</EnrouteTransitions>
+		</Departure>
 		<Departure name="GANJU2">
 			<RunwayTransitions>
 				<RunwayTransitionLegs number="18" designator="L">

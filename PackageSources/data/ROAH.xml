@@ -7,17 +7,17 @@
 				<RunwayTransitionLegs number="18" designator="L">
 					<Leg type="VA" magneticCourse="183.0" altitudeDescriptor="+" altitude1="500.0F" />
 					<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="RO" fixIdent="H8L00" flyOver="TRUE" />
-					<Leg type="DF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="VIGER" flyOver="FALSE" />
+					<Leg type="DF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="VIGER" flyOver="FALSE" turnDirection="R" />
 					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="DORIS" flyOver="FALSE" magneticCourse="284.0" distance="48.6N" />
 				</RunwayTransitionLegs>
 				<RunwayTransitionLegs number="18" designator="R">
 					<Leg type="VA" magneticCourse="183.0" altitudeDescriptor="+" altitude1="500.0F" />
-					<Leg type="DF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="VIGER" flyOver="FALSE" />
+					<Leg type="DF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="VIGER" flyOver="FALSE" turnDirection="R" />
 					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="DORIS" flyOver="FALSE" magneticCourse="284.0" distance="48.6N" />
 				</RunwayTransitionLegs>
 				<RunwayTransitionLegs number="36" designator="L">
 					<Leg type="VA" magneticCourse="3.0" altitudeDescriptor="+" altitude1="500.0F" />
-					<Leg type="DF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="KIZNA" flyOver="FALSE" />
+					<Leg type="DF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="KIZNA" flyOver="FALSE" turnDirection="L" />
 					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="GELMA" flyOver="FALSE" magneticCourse="235.0" distance="8.5N" />
 					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="TINTO" flyOver="FALSE" magneticCourse="230.0" distance="18.3N" />
 					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="DORIS" flyOver="FALSE" magneticCourse="269.0" distance="25.6N" />
@@ -25,7 +25,7 @@
 				<RunwayTransitionLegs number="36" designator="R">
 					<Leg type="VA" magneticCourse="3.0" altitudeDescriptor="+" altitude1="500.0F" />
 					<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="RO" fixIdent="H6R00" flyOver="TRUE" />
-					<Leg type="DF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="KIZNA" flyOver="FALSE" />
+					<Leg type="DF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="KIZNA" flyOver="FALSE" turnDirection="L" />
 					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="GELMA" flyOver="FALSE" magneticCourse="235.0" distance="8.5N" />
 					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="TINTO" flyOver="FALSE" magneticCourse="230.0" distance="18.3N" />
 					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="DORIS" flyOver="FALSE" magneticCourse="269.0" distance="25.6N" />

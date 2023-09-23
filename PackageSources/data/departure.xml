@@ -2,6 +2,7 @@
 <FSData version="9.0">
 	<Airport displayName="Naha" groupID="4294967295" groupGenerated="FALSE" name="Naha" ident="ROAH" lat="26.19333341717720" lon="127.63972207903862" alt="3.81000018119812" magvar="0.000000" trafficScalar="1.000000" airportTestRadius="2000.00000000000000" applyFlatten="FALSE" isOnTIN="FALSE" tinColorCorrection="TRUE">
 		<DeleteAirport deleteAllDepartures="TRUE" />
+		<!-- RNAV Departures -->
 		<Departure name="DORIS2">
 			<RunwayTransitions>
 				<RunwayTransitionLegs number="18" designator="L">
@@ -151,6 +152,105 @@
 					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="GELMA" flyOver="FALSE" magneticCourse="235.0" distance="8.5N" />
 					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="TINTO" flyOver="FALSE" magneticCourse="230.0" distance="18.3N" />
 					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="GANJU" flyOver="FALSE" magneticCourse="243.0" distance="28.5N" />
+				</RunwayTransitionLegs>
+			</RunwayTransitions>
+			<CommonRouteLegs />
+			<EnrouteTransitions />
+		</Departure>
+		<!-- Non-RNAV Departures -->
+		<Departure name="LAVON1">
+			<RunwayTransitions>
+				<RunwayTransitionLegs number="18" designator="L">
+					<Leg type="CD" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" magneticCourse="183.0" distance="4.7N" />
+					<Leg type="VR" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="196.0" magneticCourse="226.0" turnDirection="R" />
+					<Leg type="CD" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" magneticCourse="196.0" distance="15.0N" />
+					<Leg type="AF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="LAVON" flyOver="FALSE" turnDirection="R" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="266.0" rho="15.0N" magneticCourse="196.0" />
+				</RunwayTransitionLegs>
+				<RunwayTransitionLegs number="18" designator="R">
+					<Leg type="VA" magneticCourse="183.0" altitudeDescriptor="+" altitude1="600.0F" />
+					<Leg type="VR" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="211.0" magneticCourse="241.0" turnDirection="R" />
+					<Leg type="CD" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" magneticCourse="211.0" distance="15.0N" />
+					<Leg type="AF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="LAVON" flyOver="FALSE" turnDirection="R" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="266.0" rho="15.0N" magneticCourse="196.0" />
+				</RunwayTransitionLegs>
+				<RunwayTransitionLegs number="36" designator="L">
+					<Leg type="VA" magneticCourse="3.0" altitudeDescriptor="+" altitude1="500.0F" />
+					<Leg type="VR" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="308.0" magneticCourse="278.0" turnDirection="L" />
+					<Leg type="CD" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" magneticCourse="308.0" distance="15.0N" />
+					<Leg type="AF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="LAVON" flyOver="FALSE" turnDirection="L" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="266.0" rho="15.0N" magneticCourse="196.0" />
+				</RunwayTransitionLegs>
+				<RunwayTransitionLegs number="36" designator="R">
+					<Leg type="CD" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" magneticCourse="3.0" distance="2.4N" />
+					<Leg type="VR" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="341.0" magneticCourse="311.0" turnDirection="L" />
+					<Leg type="CD" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" magneticCourse="341.0" distance="15.0N" />
+					<Leg type="AF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="LAVON" flyOver="FALSE" turnDirection="L" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="266.0" rho="15.0N" magneticCourse="196.0" />
+				</RunwayTransitionLegs>
+			</RunwayTransitions>
+			<CommonRouteLegs />
+			<EnrouteTransitions />
+		</Departure>
+		<Departure name="NAHAN4">
+			<RunwayTransitions>
+				<RunwayTransitionLegs number="36" designator="L">
+					<Leg type="VA" magneticCourse="3.0" altitudeDescriptor="+" altitude1="500.0F" />
+					<Leg type="VR" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="341.0" magneticCourse="311.0" turnDirection="L" />
+					<Leg type="CF" fixType="TERMINAL_WAYPOINT" fixRegion="RO" fixIdent="EISAR" flyOver="FALSE" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="341.0" rho="18.0N" magneticCourse="341.0" distance="18.0N" />
+				</RunwayTransitionLegs>
+				<RunwayTransitionLegs number="36" designator="R">
+					<Leg type="CD" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" magneticCourse="3.0" distance="2.4N" />
+					<Leg type="VR" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="341.0" magneticCourse="311.0" turnDirection="L" />
+					<Leg type="CF" fixType="TERMINAL_WAYPOINT" fixRegion="RO" fixIdent="EISAR" flyOver="FALSE" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="341.0" rho="18.0N" magneticCourse="341.0" distance="18.0N" />
+				</RunwayTransitionLegs>
+			</RunwayTransitions>
+			<CommonRouteLegs />
+			<EnrouteTransitions>
+				<EnrouteTransitionLegs name="SCUBA">
+					<Leg type="CD" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" magneticCourse="341.0" distance="24.1N" />
+					<Leg type="VR" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="344.0" magneticCourse="11.0" turnDirection="R" />
+					<Leg type="CF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="SCUBA" flyOver="FALSE" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="344.0" rho="41.0N" magneticCourse="344.0" distance="41.0N" altitudeDescriptor="+" altitude1="4000.0F" />
+				</EnrouteTransitionLegs>
+			</EnrouteTransitions>
+		</Departure>
+		<Departure name="NAHSW4">
+			<RunwayTransitions>
+				<RunwayTransitionLegs number="18" designator="L">
+					<Leg type="CD" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" magneticCourse="183.0" distance="4.7N" />
+					<Leg type="VR" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="196.0" magneticCourse="226.0" turnDirection="R" />
+					<Leg type="CF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="LAFTY" flyOver="FALSE" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="196.0" rho="30.1N" magneticCourse="196.0" distance="30.1N" />
+				</RunwayTransitionLegs>
+				<RunwayTransitionLegs number="18" designator="R">
+					<Leg type="VA" magneticCourse="183.0" altitudeDescriptor="+" altitude1="500.0F" />
+					<Leg type="VR" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="196.0" magneticCourse="226.0" turnDirection="R" />
+					<Leg type="CF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="LAFTY" flyOver="FALSE" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="196.0" rho="30.1N" magneticCourse="196.0" distance="30.1N" />
+				</RunwayTransitionLegs>
+			</RunwayTransitions>
+			<CommonRouteLegs />
+			<EnrouteTransitions />
+		</Departure>
+		<Departure name="OLVAL1">
+			<RunwayTransitions>
+				<RunwayTransitionLegs number="18" designator="L">
+					<Leg type="CD" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" magneticCourse="183.0" distance="4.7N" />
+					<Leg type="VR" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="196.0" magneticCourse="226.0" turnDirection="R" />
+					<Leg type="CD" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" magneticCourse="196.0" distance="15.0N" />
+					<Leg type="AF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="OLVAL" flyOver="FALSE" turnDirection="R" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="241.0" rho="15.0N" magneticCourse="196.0" />
+				</RunwayTransitionLegs>
+				<RunwayTransitionLegs number="18" designator="R">
+					<Leg type="VA" magneticCourse="183.0" altitudeDescriptor="+" altitude1="600.0F" />
+					<Leg type="VR" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="211.0" magneticCourse="241.0" turnDirection="R" />
+					<Leg type="CD" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" magneticCourse="211.0" distance="15.0N" />
+					<Leg type="AF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="OLVAL" flyOver="FALSE" turnDirection="R" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="241.0" rho="15.0N" magneticCourse="196.0" />
+				</RunwayTransitionLegs>
+				<RunwayTransitionLegs number="36" designator="L">
+					<Leg type="VA" magneticCourse="3.0" altitudeDescriptor="+" altitude1="500.0F" />
+					<Leg type="VR" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="308.0" magneticCourse="278.0" turnDirection="L" />
+					<Leg type="CD" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" magneticCourse="308.0" distance="15.0N" />
+					<Leg type="AF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="OLVAL" flyOver="FALSE" turnDirection="L" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="241.0" rho="15.0N" magneticCourse="196.0" />
+				</RunwayTransitionLegs>
+				<RunwayTransitionLegs number="36" designator="R">
+					<Leg type="CD" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" magneticCourse="3.0" distance="2.4N" />
+					<Leg type="VR" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="341.0" magneticCourse="311.0" turnDirection="L" />
+					<Leg type="CD" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" magneticCourse="341.0" distance="15.0N" />
+					<Leg type="AF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="OLVAL" flyOver="FALSE" turnDirection="L" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="241.0" rho="15.0N" magneticCourse="196.0" />
 				</RunwayTransitionLegs>
 			</RunwayTransitions>
 			<CommonRouteLegs />

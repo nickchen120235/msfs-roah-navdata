@@ -1,0 +1,190 @@
+<?xml version="1.0"?>
+<FSData version="9.0">
+	<Airport displayName="Naha" groupID="4294967295" groupGenerated="FALSE" name="Naha" ident="ROAH" lat="26.19333341717720" lon="127.63972207903862" alt="3.81000018119812" magvar="0.000000" trafficScalar="1.000000" airportTestRadius="2000.00000000000000" applyFlatten="FALSE" isOnTIN="FALSE" tinColorCorrection="TRUE">
+		<DeleteAirport deleteAllArrivals="TRUE" />
+		<!-- RNAV Arrival -->
+		<Arrival name="ENTOKN">
+			<EnrouteTransitions />
+			<CommonRouteLegs />
+			<RunwayTransitions>
+				<RunwayTransitionLegs number="18" designator="L">
+					<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="ENTOK" altitudeDescriptor="+" altitude1="17000.0F" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="YEEZY" flyOver="FALSE" magneticCourse="95.0" distance="99.2" altitudeDescriptor="+" altitude1="2100.0F" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="THETA" flyOver="FALSE" magneticCourse="95.0" distance="37.2" altitudeDescriptor="+" altitude1="2000.0F" />
+				</RunwayTransitionLegs>
+				<RunwayTransitionLegs number="18" designator="R">
+					<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="ENTOK" altitudeDescriptor="+" altitude1="17000.0F" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="YEEZY" flyOver="FALSE" magneticCourse="95.0" distance="99.2" altitudeDescriptor="+" altitude1="2100.0F" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="THETA" flyOver="FALSE" magneticCourse="95.0" distance="37.2" altitudeDescriptor="+" altitude1="2000.0F" />
+				</RunwayTransitionLegs>
+			</RunwayTransitions>
+		</Arrival>
+		<Arrival name="ENTOKS">
+			<EnrouteTransitions />
+			<CommonRouteLegs />
+			<RunwayTransitions>
+				<RunwayTransitionLegs number="36" designator="L">
+					<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="ENTOK" altitudeDescriptor="+" altitude1="17000.0F" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="VIGER" flyOver="FALSE" magneticCourse="104.0" distance="141.4N" altitudeDescriptor="+" altitude1="2000.0F" />
+				</RunwayTransitionLegs>
+				<RunwayTransitionLegs number="36" designator="R">
+					<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="ENTOK" altitudeDescriptor="+" altitude1="17000.0F" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="VIGER" flyOver="FALSE" magneticCourse="104.0" distance="141.4N" altitudeDescriptor="+" altitude1="2000.0F" />
+				</RunwayTransitionLegs>
+			</RunwayTransitions>
+		</Arrival>
+		<Arrival name="GUPTIN">
+			<EnrouteTransitions />
+			<CommonRouteLegs />
+			<RunwayTransitions>
+				<RunwayTransitionLegs number="18" designator="L">
+					<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="GUPTI" altitudeDescriptor="+" altitude1="20000.0F" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="IHEYA" flyOver="FALSE" magneticCourse="192.0" distance="121.6N" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="KUKUL" flyOver="FALSE" magneticCourse="213.0" distance="34.6N" altitudeDescriptor="+" altitude1="2000.0F" />
+				</RunwayTransitionLegs>
+				<RunwayTransitionLegs number="18" designator="R">
+					<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="GUPTI" altitudeDescriptor="+" altitude1="20000.0F" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="IHEYA" flyOver="FALSE" magneticCourse="192.0" distance="121.6N" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="KUKUL" flyOver="FALSE" magneticCourse="213.0" distance="34.6N" altitudeDescriptor="+" altitude1="2000.0F" />
+				</RunwayTransitionLegs>
+			</RunwayTransitions>
+		</Arrival>
+		<Arrival name="GUPTIS">
+			<EnrouteTransitions />
+			<CommonRouteLegs />
+			<RunwayTransitions>
+				<RunwayTransitionLegs number="36" designator="L">
+					<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="GUPTI" altitudeDescriptor="+" altitude1="20000.0F" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="IHEYA" flyOver="FALSE" magneticCourse="192.0" distance="121.6N" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="HASSA" flyOver="FALSE" magneticCourse="184.0" distance="37.1N" altitudeDescriptor="+" altitude1="11000.0F" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="SEIFA" flyOver="FALSE" magneticCourse="210.0" distance="22.6N" altitudeDescriptor="+" altitude1="2000.0F" />
+				</RunwayTransitionLegs>
+				<RunwayTransitionLegs number="36" designator="R">
+					<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="GUPTI" altitudeDescriptor="+" altitude1="20000.0F" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="IHEYA" flyOver="FALSE" magneticCourse="192.0" distance="121.6N" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="HASSA" flyOver="FALSE" magneticCourse="184.0" distance="37.1N" altitudeDescriptor="+" altitude1="11000.0F" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="SEIFA" flyOver="FALSE" magneticCourse="210.0" distance="22.6N" altitudeDescriptor="+" altitude1="2000.0F" />
+				</RunwayTransitionLegs>
+			</RunwayTransitions>
+		</Arrival>
+		<Arrival name="IHEYAN">
+			<EnrouteTransitions />
+			<CommonRouteLegs />
+			<RunwayTransitions>
+				<RunwayTransitionLegs number="18" designator="L">
+					<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="IHEYA" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="FOCUS" flyOver="FALSE" magneticCourse="213.0" distance="22.6N" altitudeDescriptor="+" altitude1="4000.0F" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="KUKUL" flyOver="FALSE" magneticCourse="212.0" distance="12.0N" altitudeDescriptor="+" altitude1="2000.0F" />
+				</RunwayTransitionLegs>
+				<RunwayTransitionLegs number="18" designator="R">
+					<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="IHEYA" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="FOCUS" flyOver="FALSE" magneticCourse="213.0" distance="22.6N" altitudeDescriptor="+" altitude1="4000.0F" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="KUKUL" flyOver="FALSE" magneticCourse="212.0" distance="12.0N" altitudeDescriptor="+" altitude1="2000.0F" />
+				</RunwayTransitionLegs>
+			</RunwayTransitions>
+		</Arrival>
+			<Arrival name="IHEYAS">
+			<EnrouteTransitions />
+			<CommonRouteLegs />
+			<RunwayTransitions>
+				<RunwayTransitionLegs number="36" designator="L">
+					<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="IHEYA" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="HASSA" flyOver="FALSE" magneticCourse="184.0" distance="37.1N" altitudeDescriptor="+" altitude1="11000.0F" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="SEIFA" flyOver="FALSE" magneticCourse="210.0" distance="22.6N" altitudeDescriptor="+" altitude1="2000.0F" />
+				</RunwayTransitionLegs>
+				<RunwayTransitionLegs number="36" designator="R">
+					<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="IHEYA" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="HASSA" flyOver="FALSE" magneticCourse="184.0" distance="37.1N" altitudeDescriptor="+" altitude1="11000.0F" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="SEIFA" flyOver="FALSE" magneticCourse="210.0" distance="22.6N" altitudeDescriptor="+" altitude1="2000.0F" />
+				</RunwayTransitionLegs>
+			</RunwayTransitions>
+		</Arrival>
+		<Arrival name="RESORN">
+			<EnrouteTransitions />
+			<CommonRouteLegs />
+			<RunwayTransitions>
+				<RunwayTransitionLegs number="18" designator="L">
+					<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="OKUMA" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="CLIFF" flyOver="FALSE" magneticCourse="251.0" distance="17.1N" altitudeDescriptor="+" altitude1="2700.0F" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="KUKUL" flyOver="FALSE" magneticCourse="251.0" distance="8.1N" altitudeDescriptor="+" altitude1="2000.0F" />
+				</RunwayTransitionLegs>
+				<RunwayTransitionLegs number="18" designator="R">
+					<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="OKUMA" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="CLIFF" flyOver="FALSE" magneticCourse="251.0" distance="17.1N" altitudeDescriptor="+" altitude1="2700.0F" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="KUKUL" flyOver="FALSE" magneticCourse="251.0" distance="8.1N" altitudeDescriptor="+" altitude1="2000.0F" />
+				</RunwayTransitionLegs>
+			</RunwayTransitions>
+		</Arrival>
+		<Arrival name="RESORS">
+			<EnrouteTransitions />
+			<CommonRouteLegs />
+			<RunwayTransitions>
+				<RunwayTransitionLegs number="36" designator="L">
+					<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="OKUMA" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="HASSA" flyOver="FALSE" magneticCourse="206.0" distance="17.9N" altitudeDescriptor="+" altitude1="11000.0F" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="SEIFA" flyOver="FALSE" magneticCourse="210.0" distance="22.6N" altitudeDescriptor="+" altitude1="2000.0F" />
+				</RunwayTransitionLegs>
+				<RunwayTransitionLegs number="36" designator="R">
+					<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="OKUMA" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="HASSA" flyOver="FALSE" magneticCourse="206.0" distance="17.9N" altitudeDescriptor="+" altitude1="11000.0F" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="SEIFA" flyOver="FALSE" magneticCourse="210.0" distance="22.6N" altitudeDescriptor="+" altitude1="2000.0F" />
+				</RunwayTransitionLegs>
+			</RunwayTransitions>
+		</Arrival>
+		<Arrival name="VELNON">
+			<EnrouteTransitions />
+			<CommonRouteLegs />
+			<RunwayTransitions>
+				<RunwayTransitionLegs number="18" designator="L">
+					<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="VELNO" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="THETA" flyOver="FALSE" magneticCourse="30.0" distance="29.2N" altitudeDescriptor="+" altitude1="2000.0F" />
+				</RunwayTransitionLegs>
+				<RunwayTransitionLegs number="18" designator="R">
+					<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="VELNO" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="THETA" flyOver="FALSE" magneticCourse="30.0" distance="29.2N" altitudeDescriptor="+" altitude1="2000.0F" />
+				</RunwayTransitionLegs>
+			</RunwayTransitions>
+		</Arrival>
+		<Arrival name="VELNOS">
+			<EnrouteTransitions />
+			<CommonRouteLegs />
+			<RunwayTransitions>
+				<RunwayTransitionLegs number="36" designator="L">
+					<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="VELNO" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="VIGER" flyOver="FALSE" magneticCourse="81.0" distance="15.7N" altitudeDescriptor="+" altitude1="2000.0F" />
+				</RunwayTransitionLegs>
+				<RunwayTransitionLegs number="36" designator="R">
+					<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="VELNO" />
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="VIGER" flyOver="FALSE" magneticCourse="81.0" distance="15.7N" altitudeDescriptor="+" altitude1="2000.0F" />
+				</RunwayTransitionLegs>
+			</RunwayTransitions>
+    	</Arrival>
+		<!-- Non-RNAV Arrival -->
+		<Arrival name="LAFTY">
+			<EnrouteTransitions />
+			<CommonRouteLegs>
+				<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="LAFTY" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="196.0" rho="30.1N" />
+				<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="VIGER" flyOver="FALSE" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="196.0" rho="30.1N" magneticCourse="16.0" distance="15.1N" altitudeDescriptor="+" altitude1="2000.0F" />
+			</CommonRouteLegs>
+			<RunwayTransitions />
+		</Arrival>
+		<Arrival name="LAVON">
+			<EnrouteTransitions />
+			<CommonRouteLegs>
+				<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="LAVON" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="266.0" rho="15.0N" />
+				<Leg type="AF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="VIGER" flyOver="FALSE" turnDirection="L" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="196" rho="15.0N" magneticCourse="266" altitudeDescriptor="+" altitude1="2000.0F" />
+			</CommonRouteLegs>
+			<RunwayTransitions />
+		</Arrival>
+		<Arrival name="SCUBA">
+			<EnrouteTransitions />
+			<CommonRouteLegs>
+				<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="SCUBA" />
+				<Leg type="FD" fixType="WAYPOINT" fixRegion="RJ" fixIdent="SCUBA" flyOver="FALSE" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="344.0" rho="41.0N" magneticCourse="164.0" distance="28.1N" altitudeDescriptor="+" altitude1="3000.0F" />
+				<Leg type="VR" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="341.0" magneticCourse="191.0" turnDirection="R" />
+				<Leg type="CF" fixType="TERMINAL_WAYPOINT" fixRegion="RO" fixIdent="EISAR" flyOver="FALSE" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="341.0" rho="18.0N" magneticCourse="161.0" distance="18.0N" altitudeDescriptor="+" altitude1="2000.0F" />
+			</CommonRouteLegs>
+			<RunwayTransitions />
+		</Arrival>
+	</Airport>
+</FSData>

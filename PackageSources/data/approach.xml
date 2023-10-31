@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <FSData version="9.0">
 	<Airport displayName="Naha" groupID="4294967295" groupGenerated="FALSE" name="Naha" ident="ROAH" lat="26.19333341717720" lon="127.63972207903862" alt="3.81000018119812" magvar="0.000000" trafficScalar="1.000000" airportTestRadius="2000.00000000000000" applyFlatten="FALSE" isOnTIN="FALSE" tinColorCorrection="TRUE">
-		<Waypoint lon="127.593611" lat="26.455278" waypointType="UNNAMED" waypointRegion="RO" waypointIdent="R351" magvar="5" />
+		<Waypoint lon="127.575278" lat="26.451111" waypointType="UNNAMED" waypointRegion="RO" waypointIdent="R351" magvar="5" />
 		<Waypoint lon="127.604167" lat="25.961111" waypointType="UNNAMED" waypointRegion="RO" waypointIdent="R193" magvar="5" />
 		<!-- RNAV Approach -->
 		<Approach type="RNAV" runway="36" designator="L" fixType="WAYPOINT" fixRegion="RJ" fixIdent="KICKS" altitude="1300.0F" heading="3.0" missedAltitude="2000.0F" lnavvnav="TRUE">

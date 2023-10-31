@@ -116,8 +116,9 @@
 		<Approach type="LOCALIZER" runway="18" designator="R" fixType="WAYPOINT" fixRegion="RJ" fixIdent="PARTY" altitude="1200.0F" heading="182.0" missedAltitude="2000.0F">
 			<ApproachLegs>
 				<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="SALSA" recommendedType="LOCALIZER" recommendedIdent="ION" theta="2.0" rho="8.6N" altitudeDescriptor="A" altitude1="1200.0F" isIF="TRUE" speedLimit="210" />
-				<Leg type="CF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="PARTY" flyOver="FALSE" recommendedType="LOCALIZER" recommendedIdent="ION" theta="2.0" rho="3.7N" magneticCourse="182.0" distance="4.9N" verticalAngle="-3.0" isFAF="TRUE" />
-				<Leg type="CF" fixType="RUNWAY" fixRegion="RJ" fixIdent="RW18R" flyOver="FALSE" recommendedType="LOCALIZER" recommendedIdent="ION" theta="2.0" rho="0.2N" magneticCourse="182.0" distance="3.7N" altitudeDescriptor="A" altitude1="163.0F" verticalAngle="-3.0" isMAP="TRUE" />
+				<Leg type="CF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="PARTY" flyOver="FALSE" recommendedType="LOCALIZER" recommendedIdent="ION" theta="2.0" rho="3.7N" magneticCourse="182.0" distance="4.9N" altitudeDescriptor="A" altitude1="1186.0F" isFAF="TRUE" />
+				<Leg type="CD" recommendedType="LOCALIZER" recommendedRegion="RJ" recommendedIdent="ION" magneticCourse="182.0" distance="0.7N" altitudeDescriptor="A" altitude1="490.0F" isMAP="TRUE" />
+				<Leg type="CF" fixType="RUNWAY" fixRegion="RJ" fixIdent="RW18R" flyOver="FALSE" recommendedType="LOCALIZER" recommendedIdent="ION" theta="2.0" rho="0.2N" magneticCourse="182.0" distance="0.5N" altitudeDescriptor="A" altitude1="163.0F" verticalAngle="-3.0" />
 			</ApproachLegs>
 			<MissedApproachLegs>
 				<Leg type="DF" fixType="RUNWAY" fixRegion="RJ" fixIdent="RW36L" flyOver="TRUE" /> <!-- To simulate "fly runway heading until runway end" -->

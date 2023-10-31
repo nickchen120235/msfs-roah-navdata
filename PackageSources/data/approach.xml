@@ -2,6 +2,8 @@
 <FSData version="9.0">
 	<Airport displayName="Naha" groupID="4294967295" groupGenerated="FALSE" name="Naha" ident="ROAH" lat="26.19333341717720" lon="127.63972207903862" alt="3.81000018119812" magvar="0.000000" trafficScalar="1.000000" airportTestRadius="2000.00000000000000" applyFlatten="FALSE" isOnTIN="FALSE" tinColorCorrection="TRUE">
 		<Waypoint lon="127.593611" lat="26.455278" waypointType="UNNAMED" waypointRegion="RO" waypointIdent="R351" magvar="5" />
+		<Waypoint lon="127.604167" lat="25.961111" waypointType="UNNAMED" waypointRegion="RO" waypointIdent="R193" magvar="5" />
+		<!-- RNAV Approach -->
 		<Approach type="RNAV" runway="36" designator="L" fixType="WAYPOINT" fixRegion="RJ" fixIdent="KICKS" altitude="1300.0F" heading="3.0" missedAltitude="2000.0F" lnavvnav="TRUE">
 			<ApproachLegs>
 				<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="KICKS" flyOver="FALSE" magneticCourse="3.0" distance="4.0N" altitudeDescriptor="A" altitude1="1300.0F" verticalAngle="-3.0" isFAF="TRUE" />
@@ -58,6 +60,7 @@
 				</TransitionLegs>
 			</Transition>
 		</Approach>
+		<!-- ILS/LOC -->
 		<Approach type="ILS" runway="18" designator="R" fixType="WAYPOINT" fixRegion="RJ" fixIdent="PARTY" altitude="1200.0F" heading="182.0" missedAltitude="2000.0F">
 			<ApproachLegs>
 				<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="SALSA" recommendedType="LOCALIZER" recommendedIdent="ION" theta="2.0" rho="8.6N" altitudeDescriptor="A" altitude1="1200.0F" isIF="TRUE" speedLimit="210" />
@@ -159,6 +162,136 @@
 					<Leg type="AF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="LAVON" flyOver="FALSE" turnDirection="R" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="266.0" rho="15.0N" magneticCourse="266.0" />
 					<Leg type="AF" fixType="TERMINAL_WAYPOINT" fixRegion="RO" fixIdent="R351" flyOver="TRUE" turnDirection="R" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="351.0" rho="15.0N" magneticCourse="351.0" />
 					<Leg type="CF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="SALSA" flyOver="FALSE" recommendedType="LOCALIZER" recommendedIdent="ION" theta="2.0" rho="8.6N" magneticCourse="182.0" distance="6.4N" altitudeDescriptor="A" altitude1="1200.0F" isIF="TRUE" />
+				</TransitionLegs>
+			</Transition>
+		</Approach>
+		<Approach type="ILS" runway="36" designator="L" suffix="X" fixType="WAYPOINT" fixRegion="RJ" fixIdent="BOOST" altitude="1300.0F" heading="3.0" missedAltitude="2000.0F">
+			<ApproachLegs>
+				<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="BLISS" recommendedType="LOCALIZER" recommendedIdent="IOW" theta="183.0" rho="8.1N" altitudeDescriptor="+" altitude1="2000.0F" isIF="TRUE" />
+				<Leg type="CF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="BOOST" flyOver="FALSE" recommendedType="LOCALIZER" recommendedIdent="IOW" theta="183.0" rho="4.0N" magneticCourse="3.0" distance="4.1N" altitudeDescriptor="A" altitude1="1300.0F" verticalAngle="-3.0" isFAF="TRUE" />
+				<Leg type="CF" fixType="RUNWAY" fixRegion="RJ" fixIdent="RW36L" flyOver="FALSE" recommendedType="LOCALIZER" recommendedIdent="IOW" theta="183.0" rho="0.2N" magneticCourse="3.0" distance="3.8N" altitudeDescriptor="A" altitude1="140.0F" verticalAngle="-3.0" isMAP="TRUE" />
+			</ApproachLegs>
+			<MissedApproachLegs>
+				<Leg type="DF" fixType="RUNWAY" fixRegion="RJ" fixIdent="RW18R" flyOver="TRUE" /> <!-- To simulate "fly runway heading until runway end" -->
+				<Leg type="VR" turnDirection="L" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="308.0" magneticCourse="278.0" />
+				<Leg type="CD" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" magneticCourse="308.0" distance="8.5N" altitudeDescriptor="-" altitude1="1200.0F" />
+				<Leg type="CD" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" magneticCourse="308.0" distance="12.0N" altitudeDescriptor="+" altitude1="1400.0F" />
+				<Leg type="CD" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" magneticCourse="308.0" distance="15.0N" />
+				<Leg type="AF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="OLVAL" turnDirection="L" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="241.0" rho="15.0N" magneticCourse="241.0" />
+				<Leg type="HM" fixType="WAYPOINT" fixRegion="RJ" fixIdent="OLVAL" magneticCourse="62.0" turnDirection="R" time="1.0" altitudeDescriptor="+" altitude1="2000.0F" speedLimit="230" />
+			</MissedApproachLegs>
+			<Transition transitionType="DME" fixType="WAYPOINT" fixRegion="RJ" fixIdent="OLVAL" name="OLVAL">
+				<DmeArc radial="241" distance="15.0N" dmeRegion="RJ" dmeIdent="NHC" />
+				<TransitionLegs>
+					<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="OLVAL" isIAF="TRUE" />
+					<Leg type="AF" fixType="TERMINAL_WAYPOINT" fixRegion="RO" fixIdent="R193" flyOver="TRUE" turnDirection="L" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="193.0" rho="15.0N" magneticCourse="193.0" />
+					<Leg type="CF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="BLISS" flyOver="FALSE" recommendedType="LOCALIZER" recommendedIdent="IOW" theta="183.0" rho="8.1N" magneticCourse="3.0" distance="6.9N" altitudeDescriptor="+" altitude1="2000.0F" isIF="TRUE" />
+				</TransitionLegs>
+			</Transition>
+			<Transition transitionType="DME" fixType="WAYPOINT" fixRegion="RJ" fixIdent="VIGER" name="VIGER">
+				<DmeArc radial="196" distance="15.0N" dmeRegion="RJ" dmeIdent="NHC" />
+				<TransitionLegs>
+					<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="VIGER" isIAF="TRUE" altitudeDescriptor="+" altitude1="4400.0F" />
+					<Leg type="AF" fixType="TERMINAL_WAYPOINT" fixRegion="RO" fixIdent="R193" flyOver="TRUE" turnDirection="L" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="193.0" rho="15.0N" magneticCourse="193.0" />
+					<Leg type="CF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="BLISS" flyOver="FALSE" recommendedType="LOCALIZER" recommendedIdent="IOW" theta="183.0" rho="8.1N" magneticCourse="3.0" distance="6.9N" altitudeDescriptor="+" altitude1="2000.0F" isIF="TRUE" />
+				</TransitionLegs>
+			</Transition>
+		</Approach>
+		<Approach type="LOCALIZER" runway="36" designator="L" suffix="X" fixType="WAYPOINT" fixRegion="RJ" fixIdent="BOOST" altitude="1300.0F" heading="3.0" missedAltitude="2000.0F">
+			<ApproachLegs>
+				<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="BLISS" recommendedType="LOCALIZER" recommendedIdent="IOW" theta="183.0" rho="8.1N" altitudeDescriptor="+" altitude1="2000.0F" isIF="TRUE" />
+				<Leg type="CF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="BOOST" flyOver="FALSE" recommendedType="LOCALIZER" recommendedIdent="IOW" theta="183.0" rho="4.0N" magneticCourse="3.0" distance="4.1N" altitudeDescriptor="A" altitude1="1300.0F" verticalAngle="-3.0" isFAF="TRUE" />
+				<Leg type="CD" recommendedType="LOCALIZER" recommendedRegion="RJ" recommendedIdent="IOW" magneticCourse="3.0" distance="0.6N" altitudeDescriptor="A" altitude1="430.0F" verticalAngle="-3.0" isMAP="TRUE" />
+				<Leg type="CF" fixType="RUNWAY" fixRegion="RJ" fixIdent="RW36L" flyOver="FALSE" recommendedType="LOCALIZER" recommendedIdent="IOW" theta="183.0" rho="0.2N" magneticCourse="3.0" distance="0.4N" altitudeDescriptor="A" altitude1="140.0F" verticalAngle="-3.0" />
+			</ApproachLegs>
+			<MissedApproachLegs>
+				<Leg type="DF" fixType="RUNWAY" fixRegion="RJ" fixIdent="RW18R" flyOver="TRUE" /> <!-- To simulate "fly runway heading until runway end" -->
+				<Leg type="VR" turnDirection="L" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="308.0" magneticCourse="278.0" />
+				<Leg type="CD" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" magneticCourse="308.0" distance="8.5N" altitudeDescriptor="-" altitude1="1200.0F" />
+				<Leg type="CD" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" magneticCourse="308.0" distance="12.0N" altitudeDescriptor="+" altitude1="1400.0F" />
+				<Leg type="CD" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" magneticCourse="308.0" distance="15.0N" />
+				<Leg type="AF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="OLVAL" turnDirection="L" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="241.0" rho="15.0N" magneticCourse="241.0" />
+				<Leg type="HM" fixType="WAYPOINT" fixRegion="RJ" fixIdent="OLVAL" magneticCourse="62.0" turnDirection="R" time="1.0" altitudeDescriptor="+" altitude1="2000.0F" speedLimit="230" />
+			</MissedApproachLegs>
+			<Transition transitionType="DME" fixType="WAYPOINT" fixRegion="RJ" fixIdent="OLVAL" name="OLVAL">
+				<DmeArc radial="241" distance="15.0N" dmeRegion="RJ" dmeIdent="NHC" />
+				<TransitionLegs>
+					<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="OLVAL" isIAF="TRUE" />
+					<Leg type="AF" fixType="TERMINAL_WAYPOINT" fixRegion="RO" fixIdent="R193" flyOver="TRUE" turnDirection="L" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="193.0" rho="15.0N" magneticCourse="193.0" />
+					<Leg type="CF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="BLISS" flyOver="FALSE" recommendedType="LOCALIZER" recommendedIdent="IOW" theta="183.0" rho="8.1N" magneticCourse="3.0" distance="6.9N" altitudeDescriptor="+" altitude1="2000.0F" isIF="TRUE" />
+				</TransitionLegs>
+			</Transition>
+			<Transition transitionType="DME" fixType="WAYPOINT" fixRegion="RJ" fixIdent="VIGER" name="VIGER">
+				<DmeArc radial="196" distance="15.0N" dmeRegion="RJ" dmeIdent="NHC" />
+				<TransitionLegs>
+					<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="VIGER" isIAF="TRUE" altitudeDescriptor="+" altitude1="4400.0F" />
+					<Leg type="AF" fixType="TERMINAL_WAYPOINT" fixRegion="RO" fixIdent="R193" flyOver="TRUE" turnDirection="L" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="193.0" rho="15.0N" magneticCourse="193.0" />
+					<Leg type="CF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="BLISS" flyOver="FALSE" recommendedType="LOCALIZER" recommendedIdent="IOW" theta="183.0" rho="8.1N" magneticCourse="3.0" distance="6.9N" altitudeDescriptor="+" altitude1="2000.0F" isIF="TRUE" />
+				</TransitionLegs>
+			</Transition>
+		</Approach>
+		<Approach type="ILS" runway="36" designator="L" suffix="Y" fixType="WAYPOINT" fixRegion="RJ" fixIdent="BOOST" altitude="1300.0F" heading="3.0" missedAltitude="2000.0F">
+			<ApproachLegs>
+				<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="BLISS" recommendedType="LOCALIZER" recommendedIdent="IOW" theta="183.0" rho="8.1N" altitudeDescriptor="+" altitude1="2000.0F" isIF="TRUE" />
+				<Leg type="CF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="BOOST" flyOver="FALSE" recommendedType="LOCALIZER" recommendedIdent="IOW" theta="183.0" rho="4.0N" magneticCourse="3.0" distance="4.1N" altitudeDescriptor="A" altitude1="1300.0F" verticalAngle="-3.0" isFAF="TRUE" />
+				<Leg type="CF" fixType="RUNWAY" fixRegion="RJ" fixIdent="RW36L" flyOver="FALSE" recommendedType="LOCALIZER" recommendedIdent="IOW" theta="183.0" rho="0.2N" magneticCourse="3.0" distance="3.8N" altitudeDescriptor="A" altitude1="140.0F" verticalAngle="-3.0" isMAP="TRUE" />
+			</ApproachLegs>
+			<MissedApproachLegs>
+				<Leg type="DF" fixType="RUNWAY" fixRegion="RJ" fixIdent="RW18R" flyOver="TRUE" /> <!-- To simulate "fly runway heading until runway end" -->
+				<Leg type="VR" turnDirection="L" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="308.0" magneticCourse="278.0" />
+				<Leg type="CD" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" magneticCourse="308.0" distance="8.5N" altitudeDescriptor="-" altitude1="1200.0F" />
+				<Leg type="CD" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" magneticCourse="308.0" distance="12.0N" altitudeDescriptor="+" altitude1="1400.0F" />
+				<Leg type="CD" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" magneticCourse="308.0" distance="15.0N" />
+				<Leg type="AF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="OLVAL" turnDirection="L" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="241.0" rho="15.0N" magneticCourse="241.0" />
+				<Leg type="HM" fixType="WAYPOINT" fixRegion="RJ" fixIdent="OLVAL" magneticCourse="62.0" turnDirection="R" time="1.0" altitudeDescriptor="+" altitude1="2000.0F" speedLimit="230" />
+			</MissedApproachLegs>
+			<Transition transitionType="DME" fixType="WAYPOINT" fixRegion="RJ" fixIdent="OLVAL" name="OLVAL">
+				<DmeArc radial="241" distance="15.0N" dmeRegion="RJ" dmeIdent="NHC" />
+				<TransitionLegs>
+					<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="OLVAL" isIAF="TRUE" />
+					<Leg type="AF" fixType="TERMINAL_WAYPOINT" fixRegion="RO" fixIdent="R193" flyOver="TRUE" turnDirection="L" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="193.0" rho="15.0N" magneticCourse="193.0" />
+					<Leg type="CF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="BLISS" flyOver="FALSE" recommendedType="LOCALIZER" recommendedIdent="IOW" theta="183.0" rho="8.1N" magneticCourse="3.0" distance="6.9N" altitudeDescriptor="+" altitude1="2000.0F" isIF="TRUE" />
+				</TransitionLegs>
+			</Transition>
+			<Transition transitionType="DME" fixType="WAYPOINT" fixRegion="RJ" fixIdent="VIGER" name="VIGER">
+				<DmeArc radial="196" distance="15.0N" dmeRegion="RJ" dmeIdent="NHC" />
+				<TransitionLegs>
+					<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="VIGER" isIAF="TRUE" altitudeDescriptor="+" altitude1="2000.0F" />
+					<Leg type="AF" fixType="TERMINAL_WAYPOINT" fixRegion="RO" fixIdent="R193" flyOver="TRUE" turnDirection="L" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="193.0" rho="15.0N" magneticCourse="193.0" />
+					<Leg type="CF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="BLISS" flyOver="FALSE" recommendedType="LOCALIZER" recommendedIdent="IOW" theta="183.0" rho="8.1N" magneticCourse="3.0" distance="6.9N" altitudeDescriptor="+" altitude1="2000.0F" isIF="TRUE" />
+				</TransitionLegs>
+			</Transition>
+		</Approach>
+		<Approach type="LOCALIZER" runway="36" designator="L" suffix="Y" fixType="WAYPOINT" fixRegion="RJ" fixIdent="BOOST" altitude="1300.0F" heading="3.0" missedAltitude="2000.0F">
+			<ApproachLegs>
+				<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="BLISS" recommendedType="LOCALIZER" recommendedIdent="IOW" theta="183.0" rho="8.1N" altitudeDescriptor="+" altitude1="2000.0F" isIF="TRUE" />
+				<Leg type="CF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="BOOST" flyOver="FALSE" recommendedType="LOCALIZER" recommendedIdent="IOW" theta="183.0" rho="4.0N" magneticCourse="3.0" distance="4.1N" altitudeDescriptor="A" altitude1="1300.0F" verticalAngle="-3.0" isFAF="TRUE" />
+				<Leg type="CD" recommendedType="LOCALIZER" recommendedRegion="RJ" recommendedIdent="IOW" magneticCourse="3.0" distance="0.6N" altitudeDescriptor="A" altitude1="430.0F" verticalAngle="-3.0" isMAP="TRUE" />
+				<Leg type="CF" fixType="RUNWAY" fixRegion="RJ" fixIdent="RW36L" flyOver="FALSE" recommendedType="LOCALIZER" recommendedIdent="IOW" theta="183.0" rho="0.2N" magneticCourse="3.0" distance="0.4N" altitudeDescriptor="A" altitude1="140.0F" verticalAngle="-3.0" />
+			</ApproachLegs>
+			<MissedApproachLegs>
+				<Leg type="DF" fixType="RUNWAY" fixRegion="RJ" fixIdent="RW18R" flyOver="TRUE" /> <!-- To simulate "fly runway heading until runway end" -->
+				<Leg type="VR" turnDirection="L" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="308.0" magneticCourse="278.0" />
+				<Leg type="CD" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" magneticCourse="308.0" distance="8.5N" altitudeDescriptor="-" altitude1="1200.0F" />
+				<Leg type="CD" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" magneticCourse="308.0" distance="12.0N" altitudeDescriptor="+" altitude1="1400.0F" />
+				<Leg type="CD" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" magneticCourse="308.0" distance="15.0N" />
+				<Leg type="AF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="OLVAL" turnDirection="L" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="241.0" rho="15.0N" magneticCourse="241.0" />
+				<Leg type="HM" fixType="WAYPOINT" fixRegion="RJ" fixIdent="OLVAL" magneticCourse="62.0" turnDirection="R" time="1.0" altitudeDescriptor="+" altitude1="2000.0F" speedLimit="230" />
+			</MissedApproachLegs>
+			<Transition transitionType="DME" fixType="WAYPOINT" fixRegion="RJ" fixIdent="OLVAL" name="OLVAL">
+				<DmeArc radial="241" distance="15.0N" dmeRegion="RJ" dmeIdent="NHC" />
+				<TransitionLegs>
+					<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="OLVAL" isIAF="TRUE" />
+					<Leg type="AF" fixType="TERMINAL_WAYPOINT" fixRegion="RO" fixIdent="R193" flyOver="TRUE" turnDirection="L" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="193.0" rho="15.0N" magneticCourse="193.0" />
+					<Leg type="CF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="BLISS" flyOver="FALSE" recommendedType="LOCALIZER" recommendedIdent="IOW" theta="183.0" rho="8.1N" magneticCourse="3.0" distance="6.9N" altitudeDescriptor="+" altitude1="2000.0F" isIF="TRUE" />
+				</TransitionLegs>
+			</Transition>
+			<Transition transitionType="DME" fixType="WAYPOINT" fixRegion="RJ" fixIdent="VIGER" name="VIGER">
+				<DmeArc radial="196" distance="15.0N" dmeRegion="RJ" dmeIdent="NHC" />
+				<TransitionLegs>
+					<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="VIGER" isIAF="TRUE" altitudeDescriptor="+" altitude1="2000.0F" />
+					<Leg type="AF" fixType="TERMINAL_WAYPOINT" fixRegion="RO" fixIdent="R193" flyOver="TRUE" turnDirection="L" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="NHC" theta="193.0" rho="15.0N" magneticCourse="193.0" />
+					<Leg type="CF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="BLISS" flyOver="FALSE" recommendedType="LOCALIZER" recommendedIdent="IOW" theta="183.0" rho="8.1N" magneticCourse="3.0" distance="6.9N" altitudeDescriptor="+" altitude1="2000.0F" isIF="TRUE" />
 				</TransitionLegs>
 			</Transition>
 		</Approach>
